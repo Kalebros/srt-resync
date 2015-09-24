@@ -3,11 +3,11 @@ Re-synchronize your SRT subtitles
 
 ## USAGE
 
-> srt-resync -SRT original file- -SRT destiny file- -time to sync-
+> srt-resync *ORIGIN.srt* *DESTINY.srt* *time*
 
-- **SRT original file**: File to be re-synchronized
-- **SRT destiny file**: New file, re-synchronized
-- **time to sync**: Amount of time, specified in seconds and using the float format, we want to re-sync; it can be a positive or negative value (just add *+* or *-* before)
+- **ORIGIN.srt**: File to be re-synchronized
+- **DESTINY.srt**: New file, re-synchronized
+- **time**: Amount of time, specified in seconds and using the float format, we want to re-sync; it can be a positive or negative value (just add *+* or *-* before)
 
 ### Examples:
 
