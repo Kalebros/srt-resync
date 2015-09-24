@@ -1,5 +1,18 @@
 # srt-resync
-Re-sync your SRT subtitles
+Re-synchronize your SRT subtitles
+
+## USAGE
+
+> srt-resync <SRT original file> <SRT destiny file> <time to sync>
+
+- **SRT original file**: File to be re-synchronized
+- **SRT destiny file**: New file, re-synchronized
+- **time to sync**: Amount of time, specified in seconds and using the float format, we want to re-sync; it can be a positive or negative value (just add *+* or *-* before)
+
+### Example:
+
+> srt-resync my_favorite_episode_subtitles.srt resynchronized_subtitles.srt +4.5
+> srt-resync a_bit_more_boring_episode_subtitles.srt resynchronized_boring_subtitles.srt -5.67
 
 ## License
 The MIT License (MIT)
