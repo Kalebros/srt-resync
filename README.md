@@ -3,7 +3,7 @@ Re-synchronize your SRT subtitles
 
 ## USAGE
 
-> srt-resync <SRT original file> <SRT destiny file> <time to sync>
+> srt-resync -SRT original file- -SRT destiny file- -time to sync-
 
 - **SRT original file**: File to be re-synchronized
 - **SRT destiny file**: New file, re-synchronized
