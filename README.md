@@ -13,7 +13,7 @@ Re-synchronize your SRT subtitles
 
 > *srt-resync my_favorite_episode_subtitles.srt resynchronized_subtitles.srt +4.5*
 >
-> *srt-resync boring_episode_subtitles.srt resynchronized_boring_subtitles.srt -5.67 *
+> *srt-resync boring_episode_subtitles.srt resynchronized_boring_subtitles.srt -5.67*
 
 ## License
 The MIT License (MIT)
