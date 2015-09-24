@@ -32,7 +32,7 @@ if len(sys.argv) < 4:
     print '--'
     print 'SRT file: SRT file to resync'
     print 'SRT dest file: SRT file resynced'
-    print "resync: Time (in seconds) we need to add (or rest) to the subtitles's timestamps; can be a negative value"
+    print "resync: Time (in seconds and float format) we need to add (or rest) to the subtitles's timestamps; can be a negative value"
     sys.exit()
 
 srtFile=open(sys.argv[1])
